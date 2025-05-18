@@ -1,6 +1,6 @@
 {
   "name": "plant-static-files",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,11 @@
   "keywords": [],
   "author": "Jackson Tian",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "index.js"
+  ]
 }
